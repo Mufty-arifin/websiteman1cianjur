@@ -1,0 +1,834 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <script>
+      window["__codeletBootstrap__"] = JSON.parse(
+        '{"A":"A","B":"20260809-23-79df0cd","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Canva Sans":"YAFLd8sKbwc,2","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAHO2VMiyZo,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAEul-FRQw4,0","Georgia":"YAGzXkO0pEM,0","Helvetica Neue":"YAFcf6CtJfI,0","Impact":"YAFcfnjI7Vk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Libre Baskerville":"YACgEUFdPdA,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YADLjI9qxTA,0","Nunito":"YACgEX8C5Gg,0","Oleo Script":"YACgEQQ14jI,0","Phantom Sans":"YAHO2E8Pb88,0","Playfair Display":"YACgEYmuCJE,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YADWjpfPmdk,0","Raleway":"YACgEVg3xZg,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Ubuntu":"YACgERDU--Q,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YADlN8CFZ8Q,0","ui-sans-serif":"YACkoN-xg4g,0"}}',
+      );
+    </script>
+    <script
+      src="/_sdk/7949ff62d67710d5.telemetry_sdk.js"
+      integrity="sha512-KIvXA82Di44YY/RH9/63A9MuTuavYgDFG8PfErJn7Wli4K0LAOk+coo/aPXk3+ZNL96nHh9VYD4PE+fLes+laQ=="
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab Komputer MAN 1 Cianjur</title>
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="/_sdk/0e8d3a91e1c6f495.data_sdk.js"
+      type="text/javascript"
+      integrity="sha512-c00oDoGjsMgluCLLEyVl3suwEkgjOGGplVFbsilUoBg4aMKNmsL3mwsc9r0dPn95qiSZyjBousQXgROkAW7p/w=="
+    ></script>
+    <script
+      src="/_sdk/04cc6185e046f597.resizing_sdk.js"
+      type="text/javascript"
+      integrity="sha512-CiE/G92aQF0nxneFg1kdOvXih8sQ1Z2a2QI3+r/WvzJwQqH6+IyB3iL07OkJmpm3ABAaf07+FnqWny98f5sR6w=="
+    ></script>
+  </head>
+  <body data-template-id="__page-root" class="w-full">
+    <header class="nav-glass sticky top-0 z-50 w-full">
+      <div class="navbar-container">
+        <div class="navbar-wrapper">
+          <!-- Logo & Brand -->
+          <a
+            href="#beranda"
+            class="navbar-brand focus-ring"
+            aria-label="Kembali ke beranda"
+          >
+            <div class="navbar-logo">
+              <img src="img/MAN1_cianjur.png" alt="Logo MAN 1 Cianjur" />
+            </div>
+
+            <div class="navbar-brand-text">
+              <p class="brand-name">Lab Komputer</p>
+              <p class="brand-subtitle">MAN 1 Cianjur</p>
+            </div>
+          </a>
+
+          <!-- Desktop Navigation -->
+          <nav class="navbar-menu" aria-label="Navigasi utama">
+            <a class="nav-link focus-ring" href="#profil"> Profil </a>
+
+            <a class="nav-link focus-ring" href="#fasilitas"> Fasilitas </a>
+
+            <a class="nav-link focus-ring" href="#layanan"> Kegiatan </a>
+
+            <a class="nav-link focus-ring" href="#tata-tertib"> Tata Tertib </a>
+
+            <a class="nav-link focus-ring" href="#kontak"> Kontak </a>
+          </nav>
+
+          <!-- CTA -->
+          <a href="#jadwal" class="header-cta focus-ring"> Jadwal Lab </a>
+
+          <!-- Mobile Menu Button -->
+          <button
+            id="menu-toggle"
+            type="button"
+            class="menu-toggle focus-ring"
+            aria-label="Buka menu navigasi"
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+          >
+            <i data-lucide="menu" class="w-6 h-6"></i>
+          </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <nav id="mobile-nav" class="mobile-nav" aria-label="Navigasi seluler">
+          <div class="mobile-nav-menu">
+            <a class="nav-link focus-ring" href="#profil"> Profil </a>
+
+            <a class="nav-link focus-ring" href="#fasilitas"> Fasilitas </a>
+
+            <a class="nav-link focus-ring" href="#layanan"> Kegiatan </a>
+
+            <a class="nav-link focus-ring" href="#tata-tertib"> Tata Tertib </a>
+
+            <a class="nav-link focus-ring" href="#kontak"> Kontak </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section id="beranda" class="hero-section">
+        <div class="hero-orb orb-one"></div>
+        <div class="hero-orb orb-two"></div>
+        <div class="grid-pattern"></div>
+
+        <div class="hero-container">
+          <div class="hero-grid">
+            <!-- HERO CONTENT -->
+            <div class="hero-content">
+              <div data-template-id="hero-kicker" class="hero-kicker reveal">
+                Ruang Belajar Digital
+              </div>
+
+              <h1
+                data-template-id="hero-title"
+                class="hero-title heading-font reveal delay-1"
+              >
+                Menyiapkan Generasi Cerdas di Era Teknologi
+              </h1>
+
+              <p
+                data-template-id="hero-description"
+                class="hero-description reveal delay-2"
+              >
+                Laboratorium Komputer MAN 1 Cianjur adalah ruang belajar yang
+                nyaman, terhubung, dan siap mendukung pembelajaran digital yang
+                bermakna.
+              </p>
+
+              <div class="hero-actions reveal delay-3">
+                <a
+                  data-template-id="hero-cta"
+                  href="#jadwal"
+                  class="hero-button hero-button-primary"
+                >
+                  Jadwal Penggunaan
+                </a>
+
+                <a
+                  data-template-id="hero-secondary-cta"
+                  href="#fasilitas"
+                  class="hero-button hero-button-secondary"
+                >
+                  Lihat Fasilitas
+                </a>
+              </div>
+
+              <div class="hero-trust">
+                <div class="hero-avatars" aria-hidden="true">
+                  <span class="avatar avatar-green"></span>
+                  <span class="avatar avatar-blue"></span>
+                  <span class="avatar avatar-lime"></span>
+                </div>
+
+                <p data-template-id="hero-trust" class="hero-trust-text">
+                  Belajar, berkarya, dan bertumbuh bersama teknologi.
+                </p>
+              </div>
+            </div>
+
+            <!-- HERO IMAGE -->
+            <div class="hero-visual reveal delay-2">
+              <div class="hero-image-border"></div>
+
+              <div class="hero-image-wrapper">
+                <img
+                  data-template-id="hero-image"
+                  loading="lazy"
+                  class="hero-image"
+                  src="https://images.pexels.com/photos/5530490/pexels-photo-5530490.jpeg?auto=compress&cs=tinysrgb&w=1280"
+                  alt="A group of male students working on computers in a classroom setting."
+                />
+
+                <div class="hero-image-overlay">
+                  <div
+                    data-template-id="hero-image-caption"
+                    class="hero-image-caption"
+                  >
+                    Lingkungan belajar yang aktif
+                  </div>
+                </div>
+              </div>
+
+              <!-- FLOATING CARD -->
+              <div
+                data-template-id="hero-float-card"
+                class="hero-floating-card"
+              >
+                <i data-lucide="wifi" class="hero-floating-icon"></i>
+
+                <p
+                  data-template-id="hero-float-text"
+                  class="hero-floating-text"
+                >
+                  Terhubung untuk pembelajaran tanpa batas
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Profile Section -->
+      <section id="profil" class="profile-section">
+        <div class="profile-container">
+          <div class="profile-image-wrapper">
+            <div class="profile-decoration"></div>
+
+            <img
+              data-template-id="facility-image"
+              loading="lazy"
+              class="profile-image"
+              src="https://images.pexels.com/photos/18471480/pexels-photo-18471480.jpeg?auto=compress&cs=tinysrgb&w=1280"
+              alt="An empty computer lab with modern desktop setups and ergonomic chairs."
+            />
+
+            <div
+              data-template-id="profile-image-note"
+              class="profile-image-note"
+            >
+              Ruang yang siap untuk masa depan
+            </div>
+          </div>
+
+          <div class="profile-content">
+            <p data-template-id="profile-kicker" class="profile-kicker">
+              Tentang Laboratorium
+            </p>
+
+            <h2 data-template-id="profile-title" class="profile-title">
+              Memadukan nilai, ilmu, dan inovasi
+            </h2>
+
+            <p
+              data-template-id="profile-description"
+              class="profile-description"
+            >
+              Kami menyediakan ekosistem teknologi yang mendukung siswa dan guru
+              untuk mengeksplorasi kompetensi digital secara aman, kreatif, dan
+              bertanggung jawab.
+            </p>
+
+            <div class="profile-points">
+              <div class="profile-point">
+                <span class="profile-point-icon profile-icon-green">
+                  <i data-lucide="target"></i>
+                </span>
+
+                <div>
+                  <h3
+                    data-template-id="profile-point-one-title"
+                    class="profile-point-title"
+                  >
+                    Pembelajaran relevan
+                  </h3>
+
+                  <p
+                    data-template-id="profile-point-one-text"
+                    class="profile-point-text"
+                  >
+                    Mendukung mata pelajaran informatika, proyek digital, dan
+                    literasi teknologi.
+                  </p>
+                </div>
+              </div>
+
+              <div class="profile-point">
+                <span class="profile-point-icon profile-icon-blue">
+                  <i data-lucide="heart-handshake"></i>
+                </span>
+
+                <div>
+                  <h3
+                    data-template-id="profile-point-two-title"
+                    class="profile-point-title"
+                  >
+                    Pengelolaan yang tertib
+                  </h3>
+
+                  <p
+                    data-template-id="profile-point-two-text"
+                    class="profile-point-text"
+                  >
+                    Fasilitas dirawat dan digunakan bersama dengan budaya
+                    disiplin serta saling menghargai.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Facility Section -->
+      <section id="fasilitas">
+        <div class="fasilitas-container">
+          <!-- Header -->
+          <div class="fasilitas-header">
+            <p class="fasilitas-kicker">Fasilitas Unggulan</p>
+
+            <h2 class="fasilitas-title">
+              Siap menunjang setiap proses belajar
+            </h2>
+
+            <p class="fasilitas-description">
+              Perangkat dan infrastruktur yang dirancang untuk pembelajaran
+              digital yang efektif, nyaman, dan kolaboratif.
+            </p>
+          </div>
+
+          <!-- Cards -->
+          <div class="fasilitas-grid">
+            <!-- PC -->
+            <article class="fasilitas-card">
+              <div class="fasilitas-icon icon-green">
+                <i data-lucide="monitor"></i>
+              </div>
+
+              <h3 class="fasilitas-value value-green">40+</h3>
+
+              <p class="fasilitas-label">Unit PC</p>
+
+              <p class="fasilitas-description-card">
+                Komputer siap pakai untuk kegiatan belajar secara individual
+                maupun kelompok.
+              </p>
+            </article>
+
+            <!-- Processor -->
+            <article class="fasilitas-card">
+              <div class="fasilitas-icon icon-blue">
+                <i data-lucide="cpu"></i>
+              </div>
+
+              <h3 class="fasilitas-value value-blue">Core i5</h3>
+
+              <p class="fasilitas-label">Performa Andal</p>
+
+              <p class="fasilitas-description-card">
+                Spesifikasi memadai untuk aplikasi pembelajaran dan
+                produktivitas digital.
+              </p>
+            </article>
+
+            <!-- Internet -->
+            <article class="fasilitas-card">
+              <div class="fasilitas-icon icon-teal">
+                <i data-lucide="wifi"></i>
+              </div>
+
+              <h3 class="fasilitas-value value-teal">Cepat</h3>
+
+              <p class="fasilitas-label">Koneksi Internet</p>
+
+              <p class="fasilitas-description-card">
+                Akses jaringan stabil untuk riset, kelas digital, dan ujian
+                berbasis komputer.
+              </p>
+            </article>
+
+            <!-- Comfort -->
+            <article class="fasilitas-card">
+              <div class="fasilitas-icon icon-lime">
+                <i data-lucide="snowflake"></i>
+              </div>
+
+              <h3 class="fasilitas-value value-lime">Nyaman</h3>
+
+              <p class="fasilitas-label">AC &amp; Proyektor</p>
+
+              <p class="fasilitas-description-card">
+                Ruang ber-AC, proyektor, dan server ujian untuk aktivitas yang
+                lancar.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="layanan" class="layanan-section">
+        <div class="layanan-container">
+          <!-- Header -->
+          <div class="layanan-header">
+            <div>
+              <p class="layanan-kicker">Layanan &amp; Kegiatan</p>
+
+              <h2 class="layanan-title">
+                Ruang untuk belajar, menguji, dan berkembang
+              </h2>
+            </div>
+
+            <p class="layanan-description">
+              Laboratorium hadir sebagai pendamping setiap langkah pembelajaran
+              digital di MAN 1 Cianjur.
+            </p>
+          </div>
+
+          <!-- Cards -->
+          <div class="layanan-grid">
+            <!-- Praktikum -->
+            <article class="layanan-card">
+              <img
+                class="layanan-image"
+                src="https://images.pexels.com/photos/10638070/pexels-photo-10638070.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Siswa menggunakan komputer di laboratorium"
+                loading="lazy"
+              />
+
+              <div class="layanan-content">
+                <div class="layanan-icon icon-green">
+                  <i data-lucide="code-2"></i>
+                </div>
+
+                <h3 class="layanan-card-title">Praktikum Komputer</h3>
+
+                <p class="layanan-card-text">
+                  Kegiatan praktik terarah untuk mengasah keterampilan teknologi
+                  dan pemecahan masalah.
+                </p>
+              </div>
+            </article>
+
+            <!-- Ujian Online -->
+            <article class="layanan-card">
+              <img
+                class="layanan-image"
+                src="img/ujian.webp"
+                alt="Siswa mengikuti ujian menggunakan komputer"
+                loading="lazy"
+              />
+
+              <div class="layanan-content">
+                <div class="layanan-icon icon-blue">
+                  <i data-lucide="clipboard-check"></i>
+                </div>
+
+                <h3 class="layanan-card-title">Ujian Online</h3>
+
+                <p class="layanan-card-text">
+                  Dukungan ruang dan server untuk pelaksanaan asesmen berbasis
+                  komputer yang tertib.
+                </p>
+              </div>
+            </article>
+
+            <!-- Pelatihan Digital -->
+            <article class="layanan-card">
+              <img
+                class="layanan-image"
+                src="https://images.pexels.com/photos/30879378/pexels-photo-30879378.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Siswa belajar coding di laboratorium komputer"
+                loading="lazy"
+              />
+
+              <div class="layanan-content">
+                <div class="layanan-icon icon-lime">
+                  <i data-lucide="presentation"></i>
+                </div>
+
+                <h3 class="layanan-card-title">Pelatihan Digital</h3>
+
+                <p class="layanan-card-text">
+                  Workshop dan pembinaan kompetensi digital bagi siswa maupun
+                  tenaga pendidik.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCC Section -->
+      <section id="scc" class="scc-section">
+        <div class="scc-container">
+          <!-- Header -->
+          <div class="scc-header">
+            <div class="scc-heading">
+              <p class="scc-kicker">Ekstrakurikuler</p>
+
+              <h2 class="scc-title">Student Computer Club (SCC)</h2>
+
+              <p class="scc-description">
+                Wadah bagi siswa MAN 1 Cianjur untuk mengembangkan keterampilan
+                komputer, teknologi, kreativitas, dan kemampuan bekerja sama
+                melalui kegiatan yang menyenangkan dan produktif.
+              </p>
+            </div>
+
+            <div class="scc-badge">
+              <i data-lucide="code-2"></i>
+              <span> Belajar • Berkarya • Berprestasi </span>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="scc-grid">
+            <!-- Image -->
+            <div class="scc-image-wrapper">
+              <div class="scc-image-decoration"></div>
+
+              <img
+                class="scc-image"
+                src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                alt="Siswa sedang belajar komputer dan pemrograman"
+                loading="lazy"
+              />
+
+              <div class="scc-image-caption">
+                <i data-lucide="users"></i>
+                <span> Komunitas siswa pecinta teknologi </span>
+              </div>
+            </div>
+
+            <!-- Text -->
+            <div class="scc-content">
+              <div class="scc-item">
+                <div class="scc-icon scc-icon-green">
+                  <i data-lucide="code-2"></i>
+                </div>
+
+                <div>
+                  <h3>Pemrograman</h3>
+
+                  <p>
+                    Mempelajari dasar pemrograman, pembuatan website, aplikasi
+                    sederhana, dan logika pemrograman.
+                  </p>
+                </div>
+              </div>
+
+              <div class="scc-item">
+                <div class="scc-icon scc-icon-blue">
+                  <i data-lucide="palette"></i>
+                </div>
+
+                <div>
+                  <h3>Desain & Kreativitas</h3>
+
+                  <p>
+                    Mengembangkan kreativitas siswa melalui desain grafis,
+                    editing, multimedia, dan pembuatan konten digital.
+                  </p>
+                </div>
+              </div>
+
+              <div class="scc-item">
+                <div class="scc-icon scc-icon-purple">
+                  <i data-lucide="trophy"></i>
+                </div>
+
+                <div>
+                  <h3>Kompetisi & Prestasi</h3>
+
+                  <p>
+                    Mendorong siswa mengikuti berbagai kompetisi di bidang
+                    teknologi, komputer, desain, dan informatika.
+                  </p>
+                </div>
+              </div>
+
+              <div class="scc-item">
+                <div class="scc-icon scc-icon-orange">
+                  <i data-lucide="users"></i>
+                </div>
+
+                <div>
+                  <h3>Kolaborasi</h3>
+
+                  <p>
+                    Membangun kerja sama, komunikasi, kepemimpinan, dan
+                    kemampuan bekerja dalam tim melalui berbagai proyek.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA -->
+          <div class="scc-cta">
+            <div>
+              <p class="scc-cta-title">Tertarik bergabung dengan SCC?</p>
+
+              <p class="scc-cta-text">
+                Kembangkan kemampuan teknologi dan jadilah bagian dari komunitas
+                siswa kreatif MAN 1 Cianjur.
+              </p>
+            </div>
+
+            <a href="#kontak" class="scc-cta-button">
+              Hubungi Pengelola
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Rules Section -->
+      <section id="tata-tertib" class="rules-section">
+        <div class="rules-container">
+          <!-- Informasi Tata Tertib -->
+          <div>
+            <p data-template-id="rules-kicker" class="rules-kicker">
+              Tata Tertib Lab
+            </p>
+
+            <h2 data-template-id="rules-title" class="rules-title heading-font">
+              Teknologi digunakan dengan amanah
+            </h2>
+
+            <p data-template-id="rules-description" class="rules-description">
+              Kenyamanan dan keamanan lab adalah tanggung jawab bersama. Mari
+              menjaga ruang belajar ini dengan disiplin.
+            </p>
+
+            <div data-template-id="rules-note" class="rules-note">
+              Patuhi arahan guru dan pengelola laboratorium.
+            </div>
+          </div>
+
+          <!-- Daftar Tata Tertib -->
+          <div data-template-id="rules-panel" class="rules-panel">
+            <ol class="rules-list">
+              <li class="rules-item">
+                <span class="rule-number"> 01 </span>
+
+                <p data-template-id="rule-one" class="rule-text">
+                  Masuk dan menggunakan laboratorium sesuai jadwal serta izin
+                  dari guru atau pengelola.
+                </p>
+              </li>
+
+              <li class="rules-item">
+                <span class="rule-number"> 02 </span>
+
+                <p data-template-id="rule-two" class="rule-text">
+                  Gunakan perangkat dengan hati-hati dan jangan mengubah
+                  konfigurasi komputer tanpa izin.
+                </p>
+              </li>
+
+              <li class="rules-item">
+                <span class="rule-number"> 03 </span>
+
+                <p data-template-id="rule-three" class="rule-text">
+                  Jaga kebersihan ruang lab; makanan dan minuman tidak
+                  diperkenankan di area komputer.
+                </p>
+              </li>
+
+              <li class="rules-item">
+                <span class="rule-number"> 04 </span>
+
+                <p data-template-id="rule-four" class="rule-text">
+                  Gunakan internet dan aplikasi pembelajaran secara bijak,
+                  positif, dan bertanggung jawab.
+                </p>
+              </li>
+
+              <li class="rules-item">
+                <span class="rule-number"> 05 </span>
+
+                <p data-template-id="rule-five" class="rule-text">
+                  Laporkan segera kepada pengelola apabila menemukan kendala
+                  atau kerusakan perangkat.
+                </p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- Schedule Section -->
+      <section id="jadwal" class="schedule-section">
+        <div class="schedule-container">
+          <div data-template-id="schedule-banner" class="schedule-banner">
+            <!-- Content -->
+            <div>
+              <p data-template-id="schedule-kicker" class="schedule-kicker">
+                Butuh Menggunakan Lab?
+              </p>
+              <h2
+                data-template-id="schedule-title"
+                class="schedule-title heading-font"
+              >
+                Rencanakan kegiatan Anda bersama kami
+              </h2>
+              <p data-template-id="schedule-text" class="schedule-text">
+                Hubungi pengelola untuk informasi jadwal penggunaan ruang,
+                perangkat, dan kegiatan laboratorium.
+              </p>
+            </div>
+            <!-- Button -->
+            <a
+              data-template-id="schedule-cta"
+              href="#kontak"
+              class="schedule-button focus-ring"
+            >
+              Hubungi Pengelola
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      id="kontak"
+      data-template-id="footer-section"
+      class="site-footer w-full pt-16 pb-7"
+    >
+      <div class="w-full max-w-7xl mx-auto px-5 lg:px-8">
+        <!-- Footer Content -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12">
+          <!-- Brand -->
+          <div class="lg:col-span-1">
+            <div class="flex items-center gap-3">
+              <div class="footer-logo">
+                <img src="img/MAN1_cianjur.png" alt="Logo MAN 1 Cianjur" />
+              </div>
+
+              <p data-template-id="footer-brand" class="footer-brand">
+                Lab Komputer MAN 1 Cianjur
+              </p>
+            </div>
+
+            <p data-template-id="footer-summary" class="footer-summary">
+              Mendorong pembelajaran digital yang cerdas, kreatif, dan
+              berakhlak.
+            </p>
+          </div>
+
+          <!-- Kontak -->
+          <div>
+            <h2 data-template-id="footer-contact-title" class="footer-title">
+              Kontak Kami
+            </h2>
+
+            <ul class="footer-list">
+              <li>
+                <i data-lucide="map-pin"></i>
+
+                <span data-template-id="footer-address" class="footer-text">
+                  MAN 1 Cianjur, Kabupaten Cianjur, Jawa Barat
+                </span>
+              </li>
+
+              <li>
+                <i data-lucide="mail"></i>
+
+                <span data-template-id="footer-email" class="footer-text">
+                  labkom@man1cianjur.sch.id
+                </span>
+              </li>
+
+              <li>
+                <i data-lucide="phone"></i>
+
+                <span data-template-id="footer-phone" class="footer-text">
+                  (0263) 000 000
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Jam Layanan -->
+          <div>
+            <h2 data-template-id="footer-hours-title" class="footer-title">
+              Jam Layanan
+            </h2>
+
+            <p data-template-id="footer-hours" class="footer-hours">
+              Senin–Jumat 07.00–15.30 WIB Sesuai jadwal akademik madrasah
+            </p>
+          </div>
+
+          <!-- Social Media -->
+          <div>
+            <h2 data-template-id="footer-social-title" class="footer-title">
+              Terhubung Dengan Kami
+            </h2>
+
+            <div class="footer-social">
+              <a
+                data-template-id="social-instagram"
+                class="social-link focus-ring"
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <i data-lucide="instagram"></i>
+              </a>
+
+              <a
+                data-template-id="social-facebook"
+                class="social-link focus-ring"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <i data-lucide="facebook"></i>
+              </a>
+
+              <a
+                data-template-id="social-youtube"
+                class="social-link focus-ring"
+                href="https://www.youtube.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube"
+              >
+                <i data-lucide="youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <p data-template-id="footer-copyright" class="footer-copyright">
+            © 2026 Laboratorium Komputer MAN 1 Cianjur
+          </p>
+
+          <p data-template-id="footer-tagline" class="footer-tagline">
+            Belajar hari ini, siap untuk masa depan.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
